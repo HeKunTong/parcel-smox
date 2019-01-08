@@ -1,0 +1,33 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HeKunTong/parcel.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "node pack/dev.js",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/plugin-proposal-decorators": "^7.2.3",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.1.0",
+    "autoprefixer": "^9.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "parcel-bundler": "^1.10.2",
+    "postcss-modules": "^1.4.1"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "history": "^4.7.2",
+    "lodash": "^4.17.11",
+    "moment": "^2.23.0",
+    "path": "^0.12.7",
+    "prop-types": ">=15",
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0",
+    "smox": "^2.0.2"
+  }
+}
